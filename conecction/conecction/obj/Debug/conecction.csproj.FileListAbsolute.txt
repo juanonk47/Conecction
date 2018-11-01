@@ -8,3 +8,13 @@ C:\Users\juani\source\repos\conecction\conecction\obj\Debug\conecction.csproj.Ge
 C:\Users\juani\source\repos\conecction\conecction\obj\Debug\conecction.csproj.CoreCompileInputs.cache
 C:\Users\juani\source\repos\conecction\conecction\obj\Debug\conecction.exe
 C:\Users\juani\source\repos\conecction\conecction\obj\Debug\conecction.pdb
+C:\Users\juani\OneDrive\Documentos\GitHub\Conecction\conecction\conecction\bin\Debug\conecction.exe.config
+C:\Users\juani\OneDrive\Documentos\GitHub\Conecction\conecction\conecction\bin\Debug\conecction.exe
+C:\Users\juani\OneDrive\Documentos\GitHub\Conecction\conecction\conecction\bin\Debug\conecction.pdb
+C:\Users\juani\OneDrive\Documentos\GitHub\Conecction\conecction\conecction\obj\Debug\conecction.csprojAssemblyReference.cache
+C:\Users\juani\OneDrive\Documentos\GitHub\Conecction\conecction\conecction\obj\Debug\conecction.Properties.Resources.resources
+C:\Users\juani\OneDrive\Documentos\GitHub\Conecction\conecction\conecction\obj\Debug\conecction.vista.Alumno1.resources
+C:\Users\juani\OneDrive\Documentos\GitHub\Conecction\conecction\conecction\obj\Debug\conecction.csproj.GenerateResource.cache
+C:\Users\juani\OneDrive\Documentos\GitHub\Conecction\conecction\conecction\obj\Debug\conecction.csproj.CoreCompileInputs.cache
+C:\Users\juani\OneDrive\Documentos\GitHub\Conecction\conecction\conecction\obj\Debug\conecction.exe
+C:\Users\juani\OneDrive\Documentos\GitHub\Conecction\conecction\conecction\obj\Debug\conecction.pdb

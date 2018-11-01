@@ -32,5 +32,34 @@ namespace conecction.BEANS
                 MessageBox.Show("Error!!!" + ex.Number + "Ha ocurrido: " + ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        public Alumno BuscarId(Alumno alu)
+        {
+            AlumnoDAO alumnoDao;
+            try
+            {
+                alumnoDao = new AlumnoDAO();
+
+                return alumnoDao.Buscarid(alu);
+            } catch (SqlException ex)
+            {
+                MessageBox.Show("Error!!!" + ex.Number + "Ha ocurrido: " + ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            return null;
+        }
+        public void Modificar()
+        {
+            AlumnoDAO alumnoDao;
+            try
+            {
+                //git
+                alumnoDao = new AlumnoDAO();
+                alumnoDao.modificar(alumno);
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Error!!!" + ex.Number + "Ha ocurrido: " + ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        
     }
 }

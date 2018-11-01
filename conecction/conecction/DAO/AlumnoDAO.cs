@@ -108,13 +108,13 @@ namespace conecction.DAO
                     while (rdr.Read())
                     {
                         alumno = new Alumno();
-                        alumno.Idalumno = rdr.GetInt16(1);
-                        alumno.Nombre = rdr.GetString(2);
-                        alumno.Apaterno = rdr.GetString(3);
-                        alumno.Amaterno = rdr.GetString(4);
-                        alumno.Direccion = rdr.GetString(5);
-                        alumno.Telefono = rdr.GetString(6);
-                        alumno.Sexo = rdr.GetString(7);
+                        alumno.Idalumno = rdr.GetInt32(0);
+                        alumno.Nombre = rdr.GetString(1);
+                        alumno.Apaterno = rdr.GetString(2);
+                        alumno.Amaterno = rdr.GetString(3);
+                        alumno.Direccion = rdr.GetString(4);
+                        alumno.Telefono = rdr.GetString(5);
+                        alumno.Sexo = rdr.GetString(6);
                     }
                 }
                 Con.Close();
@@ -141,8 +141,8 @@ namespace conecction.DAO
                     "amaterno=@amaterno," +
                     "direccion=@direccion," +
                     "telefono=@telefono," +
-                    "sexo=@sexo" +
-                    "where idalumno = @idalumno";
+                    "sexo=@sexo " +
+                    "WHERE idalumno = @idalumno";
                 Con.Open();
                 cmd.Connection = Con;
                 cmd.CommandText = SQL;
